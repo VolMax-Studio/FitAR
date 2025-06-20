@@ -1,0 +1,23 @@
+{
+  "name": "fitar-platform",
+  "version": "1.0.0", 
+  "description": "Fashion AR Platform - VolMax Studios",
+  "private": true,
+  "scripts": {
+    "install:all": "cd mobile-app && npm install && cd ../web-app && npm install && cd ../backend && npm install",
+    "dev:mobile": "cd mobile-app && npm start",
+    "dev:web": "cd web-app && npm run dev", 
+    "dev:backend": "cd backend && npm run dev",
+    "dev:ai": "cd ai-engine && source venv/bin/activate && python main.py",
+    "setup": "npm run install:all",
+    "start": "echo '🚀 FitAR Platform Ready!'"
+  },
+  "workspaces": [
+    "mobile-app",
+    "web-app",
+    "backend"
+  ],
+  "keywords": ["fashion", "ar", "mobile", "ai", "startup"],
+  "author": "VolMax Studios",
+  "license": "MIT"
+}

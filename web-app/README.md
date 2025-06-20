@@ -1,1 +1,0 @@
-# FitAR Web Dashboard

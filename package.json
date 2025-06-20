@@ -1,23 +1,33 @@
 {
-  "name": "fitar-platform",
-  "version": "1.0.0", 
-  "description": "Fashion AR Platform - VolMax Studios",
+  "name": "fitar-monorepo",
+  "version": "1.0.0",
+  "description": "AR Fashion Try-On Platform by VolMax Studio",
   "private": true,
-  "scripts": {
-    "install:all": "cd mobile-app && npm install && cd ../web-app && npm install && cd ../backend && npm install",
-    "dev:mobile": "cd mobile-app && npm start",
-    "dev:web": "cd web-app && npm run dev", 
-    "dev:backend": "cd backend && npm run dev",
-    "dev:ai": "cd ai-engine && source venv/bin/activate && python main.py",
-    "setup": "npm run install:all",
-    "start": "echo '🚀 FitAR Platform Ready!'"
-  },
   "workspaces": [
-    "mobile-app",
-    "web-app",
-    "backend"
+    "web",
+    "mobile", 
+    "backend",
+    "ai-services",
+    "scrapers"
   ],
-  "keywords": ["fashion", "ar", "mobile", "ai", "startup"],
-  "author": "VolMax Studios",
-  "license": "MIT"
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:web\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:web": "cd web && npm start",
+    "dev:mobile": "cd mobile && npm start",
+    "install:all": "npm run install:backend && npm run install:web && npm run install:mobile",
+    "install:backend": "cd backend && npm install",
+    "install:web": "cd web && npm install", 
+    "install:mobile": "cd mobile && npm install",
+    "start:backend": "cd backend && npm start",
+    "start:web": "cd web && npm start",
+    "build": "npm run build:web && npm run build:backend",
+    "build:web": "cd web && npm run build",
+    "build:backend": "cd backend && npm run build",
+    "test": "echo \"Tests coming soon...\"",
+    "clean": "rm -rf node_modules web/node_modules mobile/node_modules backend/node_modules"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
 }
