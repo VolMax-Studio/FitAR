@@ -5,7 +5,7 @@
   "private": true,
   "workspaces": [
     "web",
-    "mobile", 
+    "mobile",
     "backend",
     "ai-services",
     "scrapers"
@@ -17,17 +17,20 @@
     "dev:mobile": "cd mobile && npm start",
     "install:all": "npm run install:backend && npm run install:web && npm run install:mobile",
     "install:backend": "cd backend && npm install",
-    "install:web": "cd web && npm install", 
+    "install:web": "cd web && npm install",
     "install:mobile": "cd mobile && npm install",
     "start:backend": "cd backend && npm start",
     "start:web": "cd web && npm start",
-    "build": "npm run build:web && npm run build:backend",
-    "build:web": "cd web && npm run build",
+    "build": "npm run build:backend && npm run build:web",
     "build:backend": "cd backend && npm run build",
+    "build:web": "cd web && npm run build",
     "test": "echo \"Tests coming soon...\"",
     "clean": "rm -rf node_modules web/node_modules mobile/node_modules backend/node_modules"
   },
   "devDependencies": {
     "concurrently": "^8.2.0"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
