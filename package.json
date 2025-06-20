@@ -1,34 +1,23 @@
 {
-  "name": "fitar",
-  "version": "1.0.0",
-  "description": "Fashion AR Platform",
+  "name": "fitar-platform",
+  "version": "1.0.0", 
+  "description": "Fashion AR Platform - VolMax Studios",
   "private": true,
   "scripts": {
-    "install:all": "npm run install:mobile && npm run install:web && npm run install:backend",
-    "install:mobile": "cd mobile-app && npm install",
-    "install:web": "cd web-app && npm install", 
-    "install:backend": "cd backend && npm install",
-    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:web\" \"npm run dev:ai\"",
+    "install:all": "cd mobile-app && npm install && cd ../web-app && npm install && cd ../backend && npm install",
     "dev:mobile": "cd mobile-app && npm start",
-    "dev:web": "cd web-app && npm run dev",
+    "dev:web": "cd web-app && npm run dev", 
     "dev:backend": "cd backend && npm run dev",
-    "dev:ai": "cd ai-engine && python main.py",
-    "build": "npm run build:web && npm run build:backend",
-    "build:web": "cd web-app && npm run build",
-    "build:backend": "cd backend && npm run build",
-    "test": "npm run test:web && npm run test:backend",
-    "test:web": "cd web-app && npm test",
-    "test:backend": "cd backend && npm test",
-    "docker:up": "docker-compose up -d",
-    "docker:down": "docker-compose down",
-    "docker:logs": "docker-compose logs -f"
-  },
-  "devDependencies": {
-    "concurrently": "^8.2.2"
+    "dev:ai": "cd ai-engine && source venv/bin/activate && python main.py",
+    "setup": "npm run install:all",
+    "start": "echo '🚀 FitAR Platform Ready!'"
   },
   "workspaces": [
     "mobile-app",
-    "web-app", 
+    "web-app",
     "backend"
-  ]
+  ],
+  "keywords": ["fashion", "ar", "mobile", "ai", "startup"],
+  "author": "VolMax Studios",
+  "license": "MIT"
 }

@@ -4,24 +4,21 @@ node_modules/
 __pycache__/
 *.pyc
 venv/
-.env*
+env/
 
-# Build outputs
+# Build outputs  
 dist/
 build/
+.next/
 *.log
+
+# Environment
+.env*
 
 # IDE
 .vscode/
 .idea/
-*.swp
-*.swo
 
 # OS
 .DS_Store
 Thumbs.db
-
-# Secrets
-*.pem
-*.key
-secrets/
