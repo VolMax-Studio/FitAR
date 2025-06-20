@@ -26,3 +26,10 @@
 ---
 
 ## 📁 Struktura projekta
+FitAR/├── assets/ # Ikonice, logoi, modeli
+      ├── components/  # React Native UI komponente 
+      ├── screens/             # Home, Scan, Wardrobe, LiveMode
+      ├── firebase/            # Konfiguracija baze i autentifikacije
+      ├── hooks/               # Custom React hookovi
+      ├── App.js               # Glavna entry tačka 
+      └── README.md
