@@ -114,7 +114,7 @@ npm install && npm run dev
 | Component | URL | Status |
 |-----------|-----|--------|
 | **Web Dashboard** | [fit-ar-web.vercel.app](https://fit-ar-web.vercel.app) | ✅ Live |
-| **Professional Dashboard** | [Dashboard v2.0](https://fitar-dashboard.vercel.app) | 🚧 Deploying |
+| **Professional Dashboard** | [Dashboard v2.0](https://fit-ar-web-dashboard.vercel.app/) | 🚧 Deploying |
 | **Mobile App** | Coming Soon | 🔄 Development |
 | **API Documentation** | [API Docs](https://api.fitar.app/docs) | 📋 Available |
 
