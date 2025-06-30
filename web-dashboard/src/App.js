@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { 
   Home, User, Shirt, ShoppingBag, BarChart3, Settings, 
-  Bell, Search, Plus, Heart, TrendingUp, Users, 
-  Calendar, Camera, Sparkles, Target, Zap
+  Bell, Search, Plus, TrendingUp, 
+  Camera, Sparkles, Target, Zap
 } from 'lucide-react';
 
 const FitARDashboard = () => {
