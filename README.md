@@ -8,8 +8,8 @@
 ## Reason: Google Labs released identical concept
 
 **Timeline:**
-- January 2025: FitAR development started
-- January 30, 2025: Google launched "Doppl" with same features
+- Jun 2025: FitAR development started
+- Jun 30, 2025: Google launched "Doppl" with same features
 - Status: Development halted
 
 **Lesson learned:** Always research Big Tech roadmaps first! 🎯
@@ -17,9 +17,9 @@
 
 ---
 
-## 💎 **STARTUP STORY GOLD:**
+## 💎 **STARTUP STORY :**
 
-### **INVESTOR PRESENTATION ANGLE:**
+### **:**
 ```
 🎭 "Our team predicted Google's next move by 6 months"
 🧠 "We identified the same market opportunity as Google Labs"  
