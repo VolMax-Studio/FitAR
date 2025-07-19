@@ -264,10 +264,10 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 - **Business Development**: Fashion Industry Partnerships
 
 ### **Links**
-- 🌐 **Website**: [volmax.studio](https://volmax.studio)
-- 📧 **Email**: contact@volmax.studio
-- 💼 **LinkedIn**: [VolMax Studio](https://linkedin.com/company/volmax-studio)
-- 🐦 **Twitter**: [@VolMaxStudio](https://twitter.com/volmaxstudio)
+- 🌐 **Website**: [volmax.studio](https://volmax-studio.rs)
+- 📧 **Email**: volmax.core@gmail.com
+- 💼 **LinkedIn**: [VolMax Studio]([https://linkedin.com/company/volmax-studio](https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile))
+- 🐦 **Twitter**: [@VolMaxStudio](https://x.com/VolmaxCore)
 
 ### **Investors & Partnerships**
 For investment opportunities and business partnerships:
