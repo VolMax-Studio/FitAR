@@ -266,7 +266,7 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 ### **Links**
 - 🌐 **Website**: [volmax.studio](https://volmax-studio.rs)
 - 📧 **Email**: volmax.core@gmail.com
-- 💼 **LinkedIn**: [VolMax Studio]([https://linkedin.com/company/volmax-studio](https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile))
+- 💼 **LinkedIn**: [VolMax Studio](https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile)
 - 🐦 **Twitter**: [@VolMaxStudio](https://x.com/VolmaxCore)
 
 ### **Investors & Partnerships**
